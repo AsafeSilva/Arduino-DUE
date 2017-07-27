@@ -20,6 +20,7 @@
 #define DIGITAL_PIN 	3	
 #define PIO_PORT	 	PIOC
 #define PIO_MASK	 	PIO_PC28
+#define PIO_BIT			28
 
 void setup() {
 
@@ -47,7 +48,7 @@ void setup() {
 void loop() {
 
 #ifdef USE_REGISTERS
-	Serial.println(bitRead(PIO_PORT->PIO_PDSR, 28));
+	Serial.println(bitRead(PIO_PORT->PIO_PDSR, PIO_BIT));
 #else
 	Serial.println(PIO_Get(PIO_PORT, PIO_INPUT, PIO_MASK));
 #endif
