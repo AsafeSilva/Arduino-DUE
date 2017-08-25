@@ -10,7 +10,6 @@
  * 
  * -- Hardware: --
  *	LED onBoard: pino 13, PB27
- *
  */
 	
 
