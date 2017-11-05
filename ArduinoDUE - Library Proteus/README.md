@@ -9,4 +9,8 @@ Enjoy :)
 
 # Screenshots
 
-![Screenshot](Pick Devices.png)
+![Screenshot](PickDevices.png)
+
+![Screenshot](Schematic.png)
+
+![Screenshot](PCBLayout.png)
