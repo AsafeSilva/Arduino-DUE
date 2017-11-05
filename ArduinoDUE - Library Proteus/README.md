@@ -10,7 +10,3 @@ Enjoy :)
 # Screenshots
 
 ![Screenshot](Pick Devices.png)
-
-![Screenshot](Schematic.png)
-
-![Screenshot](PCB Layout.png)
